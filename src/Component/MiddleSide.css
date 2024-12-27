@@ -1,0 +1,106 @@
+.POSTAREA{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.Middlehomeside{
+    width: 100%;
+    border:  1px solid;
+    
+    padding: 0 50px;
+    box-sizing: border-box;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.StoryBlock{
+    width: 85%;
+    height: 120px;
+    
+    /* overflow-y: hidden; */
+    overflow-x: auto;
+    display: flex;
+    gap: 17px;
+    /* padding-left: 130px; */
+    padding-top: 30px;
+    
+    
+    
+}
+.StoryBlock::-webkit-scrollbar{
+    display : none;
+
+}
+
+.ImageDiv{
+    width: 56px;
+    height:56px;
+    border-radius: 100%;
+    padding: 2px;
+    border: 3px solid #D4455C;
+}
+.statusimg{
+    width:100%;
+    border-radius: 100%;
+    height: 56px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.ProfileName{
+    font-size: 10px;
+}
+.StoryParticular{
+    width: 66px;
+    height: 66px;
+    
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.MobileTopBar{
+    display: none;
+}
+
+@media screen and (min-width:320px) and (max-width:920px){
+    .Middlehomeside{
+        width: 100%;
+        border:  1px solid;
+        
+        padding: 0 1px;
+        box-sizing: border-box;
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .StoryBlock{
+        width: 100vb;
+    }
+    .PostSection{
+        width: 100%;
+    }
+    .MobileTopBar{
+        display: inline;
+        width: 100%;
+        padding: 0 20px;
+    }
+    .InstaLogoMobile{
+        margin: 0 20px;
+        width: 103px;
+    }
+
+
+
+}
+/*-----------------------------------*/
+
+

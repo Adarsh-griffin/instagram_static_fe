@@ -1,0 +1,129 @@
+.PostSection{
+  
+    width: 60%;
+   
+    
+   
+    
+}
+.Post{
+   width: 100%;
+   /* padding-left: 220px; */
+   border-bottom: 1px solid grey;
+
+   padding-bottom: 20px;
+   margin-bottom: 20px;
+   
+
+}
+.PostInfo{
+
+    width:100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+
+    
+}
+.PostInfoImg{
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    
+
+}
+.PostInfouserName{
+    font-size: 12px;
+    font-weight: 600;
+}
+.PostInfoTime{
+    color:#999999;
+    font-size: 14px;
+}
+.PostImage{
+    width: 100%;
+    height: 565px;
+    padding-top: 10px;
+    border-radius: 1%;
+}
+.IconsBlock{
+    /* width: 473px; */
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.LeftIcon{
+    display: flex;
+    gap: 15px;
+}
+.likeimg{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    /* position: absolute; */
+}
+
+.ImagesLike{
+    position: relative;
+    display: flex;
+    align-items: center;
+    /* padding-top: 15px; */
+}
+.LikeSection{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-top: 1px;
+
+}
+.likeimg2{
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    /* position: absolute; */
+    /* left:2% ; */
+    border: 2px solid white;
+    margin-left: -7px;
+}
+.NoofLikes{
+    position: absolute;
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 35px;
+}
+.PostAbout{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 10px;
+}
+.Username{
+    font-weight: 620;
+    font-size: 14px;
+}
+.comment{
+    font-size: 14px;
+    
+}
+.NOOFCOMMENTS{
+    font-size: 14px;
+    color: grey;
+    padding-top: 10px;
+}
+.ADDCOMMENT{
+    font-size: 14px;
+    color: grey;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.PostContainer{
+    margin-bottom: 20px;
+
+    border-bottom: 1px solid grey;
+    
+    
+    
+}
